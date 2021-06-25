@@ -33,7 +33,7 @@ namespace OOPDemo.Entities
 
         public override decimal GetSalary()
         {
-            return AnnualSalary / 12;
+            return AnnualSalary /12;
         }
 
 
