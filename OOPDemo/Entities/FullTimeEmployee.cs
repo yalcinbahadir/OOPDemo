@@ -23,6 +23,7 @@ namespace OOPDemo.Entities
             return "FT - "+base.GetFullName();
         }
 
+        //After taxes
         public override decimal GetNetSalary()
         {
             decimal netSalary = GetSalary();
