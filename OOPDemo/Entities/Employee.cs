@@ -32,6 +32,7 @@ namespace OOPDemo.Entities
         }
 
         public abstract string GetFullNameWithStatus();
+        //After taxes
         public abstract decimal GetNetSalary();
         public abstract decimal GetSalary();
 
