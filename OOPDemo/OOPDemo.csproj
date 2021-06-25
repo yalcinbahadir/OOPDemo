@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Employee.cs" />
+    <Compile Include="Entities\FullTimeEmployee.cs" />
+    <Compile Include="Entities\PartTimeEmployee.cs" />
+    <Compile Include="Interfaces\IRetirement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
