@@ -10,6 +10,11 @@ namespace OOPDemo.Entities
     {
         int Id;
         string Name;
+        int Age;
+        bool IsStudent;
+
+        string CompanyName;
+
 
     }
 }
